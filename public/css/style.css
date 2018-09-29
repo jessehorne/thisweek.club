@@ -82,7 +82,7 @@ html, body {
 	font-size: 3vmin;
 	width: 100%;
 	text-align: center;
-	margin-top: 5vh;
+	margin-top: 10vmin;
 	margin-bottom: 10vmin;
 }
 
@@ -119,4 +119,22 @@ html, body {
 
 .tw-center {
 	text-align: center;
+}
+
+.tw-button {
+	font-size: 4vmin;
+	background-color: black;
+	color: white;
+	padding: 1.2vmin;
+	border: none;
+	margin-top: 10px;
+}
+
+.tw-email {
+	font-size: 4vmin;
+	outline: none;
+	border: 1px solid black;
+	padding: 1vmin;
+	padding: none;
+	margin: 0;
 }
