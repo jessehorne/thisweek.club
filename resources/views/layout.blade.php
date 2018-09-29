@@ -10,8 +10,8 @@
 		<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5baf45627283210011cb5c2b&product=inline-share-buttons"></script>
 	</head>
 	<body>
-		<div class="tw-issue"><b>#{{ env("TW_ISSUE") }}</b> sending on <b>{{ env("TW_NEXT") }}</b></div>
-		
+		<div class="tw-issue"><b>#{{ env("TW_ISSUE") }}</b> arriving <b>{{ env("TW_NEXT") }}</b></div>
+
 		@yield("content")
 	</body>
 </html>
