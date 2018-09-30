@@ -3,7 +3,7 @@
 @section('content')
 	<div class="tw-container">
 
-		<div class="tw-header">thisweek.club</div>
+		<div class="tw-header"><img src="/mail.png"><p>thisweek.club</p></div>
 
 		<div class="tw-subheader">A hand curated batch of articles for web developers, sent once a week.</div>
 

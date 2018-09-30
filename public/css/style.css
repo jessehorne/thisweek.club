@@ -25,10 +25,25 @@ html, body {
 
 .tw-header {
 	width: 100%;
-	font-size: 6vh;
-	text-align: center;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
+	text-align: center;
+}
+
+.tw-header p {
+	font-size: 6vh;
+	line-height: 9vh;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 2vmin;
+}
+
+.tw-header img {
+	height: 9vh;
+	margin-right: 1vmin;
+	padding: 0;
 }
 
 .tw-subheader {
