@@ -23,6 +23,20 @@
 	<body>
 		<div class="tw-issue"><b>#{{ env("TW_ISSUE") }}</b> arriving <b>{{ env("TW_NEXT") }}</b></div>
 
-		@yield("content")
+		<div class="tw-container">
+			<div class="tw-header"><img src="/mail.png"><p>thisweek.club</p></div>
+
+			<div class="tw-subheader">A hand curated batch of articles for web developers, sent once a week.</div>
+
+			<div class="tw-nav">
+				<a href="/" class="tw-nav-item">Home</a>
+				<a href="/donors" class="tw-nav-item">Donors</a>
+				<a href="https://github.com/jessehorne/thisweek.club" class="tw-nav-item">Source</a>
+			</div>
+
+			@yield("content")
+
+			<div class="tw-footer">Copyright © 2018 Jesse Horne | <a href="/privacy">Privacy Policy</a></div>
+		</div>
 	</body>
 </html>
