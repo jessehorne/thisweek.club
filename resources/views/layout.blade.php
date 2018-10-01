@@ -4,6 +4,17 @@
 		<meta charset="utf-8">
 		<title>thisweek.club | A Hand-Curated Newsletter for Web Developers</title>
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57844655-8"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-57844655-8');
+		</script>
+
+
 		<link rel="stylesheet" href="/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
 
